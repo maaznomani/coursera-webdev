@@ -1,0 +1,12 @@
+@font-face{
+	font-family: 'Oxygen-Regular';
+	src : url(Oxygen-Bold.ttf);
+	src : url(Oxygen-Light.ttf);
+	src : url(Oxygen-Regular.ttf);
+}
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen-Regular';
+}
