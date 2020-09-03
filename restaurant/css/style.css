@@ -10,3 +10,35 @@ body{
 	background-color: #61122f;
 	font-family: 'Oxygen-Regular';
 }
+
+/*Header*/
+#header-nav{
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img{
+	background: url('../images/pizza-logo.png') no-repeat;
+	width: 170px;
+	height: 150px;
+	margin: 10px 15px 10px 0px; 
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-left: 15px; 
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
