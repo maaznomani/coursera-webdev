@@ -142,7 +142,7 @@ div#navbarNavDropdown{
 	.navbar-brand h1{
 	font-family: 'Lora', serif;
 	color: #557c3e;
-	font-size: 1.4em;
+	font-size: 5vw;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -183,12 +183,12 @@ div#navbarNavDropdown{
 	margin: 2.5px 5px 2.5px 0px; 
 	}
 	div.navbar-brand{
-	padding-top: 5px;
+	padding-top: 6px;
 	}
 	.navbar-brand h1{
 	font-family: 'Lora', serif;
 	color: #557c3e;
-	font-size: 1em;
+	font-size: 5vw;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
