@@ -132,17 +132,17 @@ div#navbarNavDropdown{
 @media/*(min-width: 768px) and */(max-width: 991px){
 	#logo-img{
 	background: url('../images/pizza-s-logo.png') no-repeat;
-	width: 70px;
-	height: 50px;
+	width: 75px;
+	height: 60px;
 	margin: 5px 10px 5px 0px; 
 	}
 	div.navbar-brand{
-	padding-top: 15px;
+	padding-top: 10px;
 	}
 	.navbar-brand h1{
 	font-family: 'Lora', serif;
 	color: #557c3e;
-	font-size: 5vw;
+	font-size: 7vw;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -152,7 +152,7 @@ div#navbarNavDropdown{
 	line-height: .75;
 	}
 	#nav-list a span{
-	font-size: 1.2em;
+	font-size: 1.5em;
 	}
 	a.nav-link{
 		padding: inherit;
@@ -168,6 +168,7 @@ div#navbarNavDropdown{
 	button.navbar-toggler{
 	border: 2px solid #61122f;
 	margin-top: 8px;
+	font-size: 1.5rem;
 	}
 	#phone div{
 		font-size: 0.8em;
