@@ -198,7 +198,8 @@ div#navbarNavDropdown{
 	border: 2px solid #61122f;
 	/*margin-top: 10px;
 	margin-bottom: 5px;*/
-	font-size: 0.7rem;
+	font-size: 0.5rem;
+	margin-top: 2px;
 	}
 	#nav-list a span{
 	font-size: 1em;
