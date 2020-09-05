@@ -17,20 +17,29 @@ body{
 	border-radius: 0;
 	border: 0;
 }
-
+div.navbar-header{
+	width: 100%;
+}
 #logo-img{
 	background: url('../images/pizza-logo.png') no-repeat;
 	width: 170px;
 	height: 150px;
 	margin: 10px 15px 10px 0px; 
 }
-.navbar-brand{
-	padding-top: 25px;
+/*.responsove-image{
+	width: 100%;
+	background-size: 100% 100%;
+}*/
+div.navbar-brand{
+	padding-top: 30px;
+}
+div#navbarNavDropdown{
+	margin-top: 15px;
 }
 .navbar-brand h1{
 	font-family: 'Lora', serif;
 	color: #557c3e;
-	font-size: 1.5em;
+	font-size: 2.8em;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -41,4 +50,172 @@ body{
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
 	text-decoration: none;
+}
+#nav-list{
+	float: right;
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+	font-weight: 800;
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+#phone{
+	margin-top: 2px;
+	padding-top: 0px;
+}
+#phone a{
+	text-align: right;
+	padding-top: 0px;
+	padding-bottom: 0;
+	font-size: 0.9em;
+}
+#phone div{
+	color: #557c3e;
+	text-align: right;
+	padding-right: 15px;
+}
+.navbar-nav{
+	margin-inline-start: auto;
+}
+.navbar-collapse{
+	margin-block-end: auto;
+	flex-basis: 0%;
+	flex-grow: 0.5;
+}
+/*.mavbar-header button.navbar-toggler, .navbar-header .navbar-toggler-icon{
+	border: 1px solid #61122f;
+}*/
+@media(min-width: 1200px){
+
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	#logo-img{
+	background: url('../images/pizza-m-logo.png') no-repeat;
+	width: 120px;
+	height: 100px;
+	margin: 5px 10px 5px 0px; 
+	}
+	div.navbar-brand{
+	padding-top: 20px;
+	}
+	div#navbarNavDropdown{
+	margin-top: 8px;
+	}
+	.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 5vw;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-left: 15px; ;
+	line-height: .75;
+	}
+	#nav-list a span{
+	font-size: 1.5em;
+	}
+	#phone a{
+	text-align: right;
+	padding-bottom: 0;
+	font-size: 0.8em;
+	margin-top: 5px;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	#logo-img{
+	background: url('../images/pizza-s-logo.png') no-repeat;
+	width: 70px;
+	height: 50px;
+	margin: 5px 10px 5px 0px; 
+	}
+	div.navbar-brand{
+	padding-top: 15px;
+	}
+	.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-left: 5px; 
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+	}
+	#nav-list a span{
+	font-size: 1.2em;
+	}
+	a.nav-link{
+		padding: inherit;
+		margin-bottom: 2px;
+	}
+	#phone a{
+	text-align: right;
+	padding-bottom: 0;
+	font-size: 0.8em;
+	margin-top: 2px;
+	text-align: center;
+	}
+	button.navbar-toggler{
+	border: 2px solid #61122f;
+	margin-top: 8px;
+	}
+	#phone div{
+		font-size: 0.8em;
+		text-align: center;
+		padding: 0px 0px;
+	}
+}
+@media(max-width: 767px){
+	#logo-img{
+	background: url('../images/pizza-xs-logo.png') no-repeat;
+	width: 30px;
+	height: 25px;
+	margin: 2.5px 5px 2.5px 0px; 
+	}
+	div.navbar-brand{
+	padding-top: 5px;
+	}
+	.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-left: 2.5px; ;
+	line-height: .75;
+	}
+	.navbar-toggler{
+	border: 2px solid #61122f;
+	/*margin-top: 10px;
+	margin-bottom: 5px;*/
+	font-size: 0.7rem;
+	}
+	#nav-list a span{
+	font-size: 1em;
+	}
+	a.nav-link{
+		padding: inherit;
+	}
+	#phone a{
+	text-align: right;
+	padding-bottom: 0;
+	font-size: 1em;
+	margin-top: 2px;
+	text-align: center;
+	}
+	#phone div{
+		font-size: 0.8em;
+		text-align: center;
+		padding: 0px 0px;
+	}
 }
