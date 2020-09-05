@@ -19,6 +19,7 @@ body{
 }
 div.navbar-header{
 	width: 100%;
+	height: auto;
 }
 #logo-img{
 	background: url('../images/pizza-logo.png') no-repeat;
@@ -187,7 +188,7 @@ div#navbarNavDropdown{
 	.navbar-brand h1{
 	font-family: 'Lora', serif;
 	color: #557c3e;
-	font-size: 0.8em;
+	font-size: 1em;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -202,7 +203,7 @@ div#navbarNavDropdown{
 	margin-top: 2px;
 	}
 	#nav-list a span{
-	font-size: 1em;
+	font-size: 1.2em;
 	}
 	a.nav-link{
 		padding: inherit;
@@ -210,7 +211,7 @@ div#navbarNavDropdown{
 	#phone a{
 	text-align: right;
 	padding-bottom: 0;
-	font-size: 1em;
+	font-size: 1.2em;
 	margin-top: 2px;
 	text-align: center;
 	}
@@ -218,5 +219,9 @@ div#navbarNavDropdown{
 		font-size: 0.8em;
 		text-align: center;
 		padding: 0px 0px;
+	}
+	nav#header-nav{
+		width: 100%;
+		height: auto;
 	}
 }
