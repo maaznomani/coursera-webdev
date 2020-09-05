@@ -133,7 +133,7 @@ div#navbarNavDropdown{
 	background: url('../images/pizza-s-logo.png') no-repeat;
 	width: 75px;
 	height: 60px;
-	margin: 5px 10px 5px 0px; 
+	margin: 10px 10px 5px 0px; 
 	}
 	div.navbar-brand{
 	padding-top: 15px;
@@ -156,12 +156,12 @@ div#navbarNavDropdown{
 	a.nav-link{
 		padding: inherit;
 		margin-bottom: 2px;
-		font-size: x-large;
+		font-size: xx-large;
 	}
 	button.navbar-toggler{
 	border: 2px solid #61122f;
-	margin-top: 8px;
-	font-size: 1.5rem;
+	margin-top: 10px;
+	font-size: 2rem;
 	}
 	div.navbar-header{
 		margin-top: 20px;
