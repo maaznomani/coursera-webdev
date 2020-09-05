@@ -129,7 +129,7 @@ div#navbarNavDropdown{
 	margin-top: 5px;
 	}
 }
-@media(min-width: 768px) and (max-width: 991px){
+@media/*(min-width: 768px) and */(max-width: 991px){
 	#logo-img{
 	background: url('../images/pizza-s-logo.png') no-repeat;
 	width: 70px;
@@ -175,7 +175,7 @@ div#navbarNavDropdown{
 		padding: 0px 0px;
 	}
 }
-@media(max-width: 767px){
+/*@media(max-width: 767px){
 	#logo-img{
 	background: url('../images/pizza-xs-logo.png') no-repeat;
 	width: 30px;
@@ -197,8 +197,6 @@ div#navbarNavDropdown{
 	}
 	.navbar-toggler{
 	border: 2px solid #61122f;
-	/*margin-top: 10px;
-	margin-bottom: 5px;*/
 	font-size: 0.5rem;
 	margin-top: 2px;
 	}
@@ -224,4 +222,4 @@ div#navbarNavDropdown{
 		width: 100%;
 		height: auto;
 	}
-}
+}*/
