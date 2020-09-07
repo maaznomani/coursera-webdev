@@ -129,8 +129,22 @@ div#navbarNavDropdown{
 	background-color:  #000;
 	color: #fff;
 	opacity: .8;
-}  
-
+} 
+#phone-num{
+	background-color: #f6b319;
+	border-radius: 5px;
+	margin-top: 30px;
+	width: 85%;
+	height: 8vw;
+	border: 2px solid #f2f2f2;
+	text-align: center;
+} 
+#phone-num a {
+    color: #951C49;
+    text-align: center;
+    font-weight: 800;
+    font-size: 5vw;
+}
 /*Xl Devices*/
 @media(min-width: 1200px){
 	.jumbotron{
