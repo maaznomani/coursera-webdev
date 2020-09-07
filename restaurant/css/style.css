@@ -154,7 +154,7 @@ footer.footer{
 }
 #below-footer{
 	background-color: #222;
-	height: 120px;
+	height: 8vh;
 	margin-top: -1px;
 }
 .page-footer div.row{
@@ -267,7 +267,7 @@ footer.footer{
     background: url("../images/jumbotron-768.jpg") no-repeat; 
     height: 450px;
 	}
-	.panel-footer section{
+	.footer section{
 		margin-bottom: 30px;
 		text-align: center;
 	}
@@ -320,7 +320,7 @@ footer.footer{
 	width: 343px;
     margin: 0 auto 30px;
 	}
-	.panel-footer section{
+	.footer section{
 		margin-bottom: 30px;
 		text-align: center;
 	}
@@ -372,7 +372,7 @@ footer.footer{
 	width: 343px;
     margin: 0 auto 30px;
 	}
-	.panel-footer section{
+	.footer section{
 		margin-bottom: 30px;
 		text-align: center;
 	}
