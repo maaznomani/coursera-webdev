@@ -267,6 +267,10 @@ footer.footer{
     background: url("../images/jumbotron-768.jpg") no-repeat; 
     height: 450px;
 	}
+	#menu-tile, #specials-tile{
+	width: 343px;
+    margin: 0 auto 30px;
+	}
 	.footer section{
 		margin-bottom: 30px;
 		text-align: center;
